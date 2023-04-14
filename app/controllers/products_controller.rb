@@ -19,7 +19,6 @@ class ProductsController < ApplicationController
 
   # GET /products/1/edit
   def edit
-    puts 'hey'
   end
 
   # POST /products or /products.json
