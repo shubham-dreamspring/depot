@@ -4,5 +4,6 @@ class StoreController < ApplicationController
 
   def index
     @products = Product.order(:title)
+    # @current_product = nil
   end
 end
